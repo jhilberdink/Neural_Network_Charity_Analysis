@@ -16,7 +16,7 @@ The purpose of this project is to create a binary classification model using a n
 
 - For my initial model I used two hidden layers with 8 and 5 neurons. This provided 352 weight parameters, which gave the model sufficient opportunities to find trends without overfitting. I used the relu activation function in the hidden layers to identify nonlinear characteristics from the input values. Finally, I used the sigmoid activation function in the output layer to predict the probability of an applicant's success. 
 - My initial model had an accuracy score of 55%, falling short of the target of 75%.![](images/initial.png)
-- To improve the model's performance, I reprocessed the data to use fewer bins for the application type and classification categories. I then added additional neurons to the hidden layers, and finally added an additional hidden layer. The most successful version of the model used two hidden layers with 24 and 16 neurons, achieving an accuracy score of 66%. ![](images/optimized.png)
+- To improve the model's performance, I reprocessed the data to use fewer bins for the application type and classification categories. I then added additional neurons to the hidden layers, and finally added an additional hidden layer. The most successful version of the model used two hidden layers with 24 and 16 neurons, achieving an accuracy score of 66%.   ![](images/optimized.png)
 
 ## Summary
 
